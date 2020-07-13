@@ -35,6 +35,6 @@ class ThirdLoginController extends Controller
         var_dump($oauthUser->getNickname());
         var_dump($oauthUser->getName());
         var_dump($oauthUser->getEmail());
-        var_dump($oauthUser->getAvatar());
+//        var_dump($oauthUser->getAvatar());
     }
 }
